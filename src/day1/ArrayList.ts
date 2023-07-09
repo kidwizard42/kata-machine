@@ -2,7 +2,7 @@ export default class ArrayList<T> {
     public length: number;
 
     // array list strengths and weaknesses.
-    // unlike traditional static arrays, array lists can add more room once needed.
+    // unlike traditional static arrays, array lists can add more room once needed. They become dynamic.
     // still have 0(1) when accessing bc of index.
     // Also  O(1) when pushing and popping. (adding/removing from end of array)
     // O(n) when enqueue and dequeue( adding and removing at front of array. js uses unshift and shift)
